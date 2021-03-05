@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+#mainNav {
+  background: white;
+  color: black;
+}
+#mainNav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+#mainNav li {
+  display: inline;
+  padding: 5px 10px;
+}
+#mainNav a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+#mainNav a:hover {
+  text-decoration: underline;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 200px 0px 50px 0px;
+  text-align: center;
+}
+form {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  padding: 0px;
+  text-align: center;
+  line-height: 2;
+}
+button {
+  padding: 10px 10px;
+  width: 150px;
+  font-family: Arial;
+  margin: 10px;
+  border: none;
+  background: #f8f9fa;
+  color:rgb(92, 89, 89)
+}
+.search {
+  border: 1px solid rgb(211, 209, 209);
+  border-radius: 25px;
+  height: 40px;
+  width: 100%;
+  padding: 2px 23px 2px 30px;
+  background-color: white;
+  margin: auto;
+}
+.search:hover{
+  border-color: #c1c9cf;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(167, 182, 194, 0.6);
+  outline: 0 none;
+}
+footer {
+  position: fixed;
+  left: 0px;
+  bottom:0px;
+  height:100px;
+  width:100%;
+  background:rgb(201, 199, 199);
+}
+footer > p {
+  color: rgb(92, 89, 89);
+  border-bottom: 1px solid rgb(161, 159, 159);
+  margin: auto;
+  padding: 10px;
+}
+footer li {
+  display: inline;
+  margin: auto;
+  padding: 5px 5px;
+}
+footer a {
+  text-decoration: none;
+  color: rgb(92, 89, 89);
+  font-size: 14px;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
+
+
